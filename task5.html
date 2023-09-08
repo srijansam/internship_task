@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task5</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+    .submit {
+      margin-left: 5cm;
+    }
+  </style>
+  <body>
+    <form id="userform">
+      <table>
+        <tr>
+          <th>First Name</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Last Name</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Password</th>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <th>Re-enter Password</th>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td>
+            <input type="radio" value="male" />Male
+            <input type="radio" value="female" />Female
+          </td>
+        </tr>
+        <tr>
+          <th>Age:</th>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td><textarea form="userform"></textarea></td>
+        </tr>
+        <tr>
+          <th>State</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Country</th>
+          <td>
+            <select name="Country" id="Country">
+              <option value="">-Country-</option>
+              <option value="Male">India</option>
+
+              <option value="Other"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Language Known</th>
+          <td>
+            <input type="checkbox" />English <input type="checkbox" />Kannada
+            <input type="checkbox" />Hindi <input type="checkbox" />Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" />Hereby I declare all the given details are
+            true
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: right" ;>
+            Login to<a href="https://ethnus.com/">Ethnus</a>website
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br />
+    <button class="submit">Register</button>
+  </body>
+</html>
